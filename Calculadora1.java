@@ -10,6 +10,8 @@ public class Calculadora1 {
         resultado = num1 + num2;
         case '-':
         resultado = num1 - num2;
+        case '*':
+        resultado = num1 * num2;
         break;
         default:
         System.out.println("Operador inválido");
@@ -18,3 +20,5 @@ public class Calculadora1 {
     System.out.println("Resultado: " + resultado);
     }
 }
+
+   
